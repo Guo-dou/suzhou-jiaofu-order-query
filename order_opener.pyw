@@ -10,7 +10,7 @@
   - 首次运行或路径无效时, 自动弹出路径选择窗口
   - 输入订单号(完整/部分/序号)、客户名或患者名, 实时匹配, 回车/双击一键打开文件夹
   - 启动异常自动写入 error.log, 便于排查
-  - by 黄杰
+  - by 阿果
 """
 import os
 import re
@@ -500,7 +500,7 @@ class App:
         self.status = tk.Label(foot, text="", font=("Microsoft YaHei", 9),
                                fg=SUB, anchor="w", justify="left", bg=BG)
         self.status.pack(side=tk.LEFT, fill=tk.X)
-        tk.Label(foot, text="by 黄杰", font=("Microsoft YaHei", 10, "bold"),
+        tk.Label(foot, text="by 阿果", font=("Microsoft YaHei", 10, "bold"),
                  fg=SUB, bg=BG).pack(side=tk.RIGHT)
 
         self.root.after(150, lambda: self.entry.focus_set())
